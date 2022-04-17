@@ -16,9 +16,9 @@ This repository contains an analysis of Amazon video game reviews written by mem
   - 5-star reviews: <b>15,663</b>
   - Percentage of reviews that were 5-stars: <b>39%</b> 
 ## Summary
-Results of the Vine review analysis suggests that <u>there is a positivity bias in paid Vine reviews </u>. The percentage of paid Vine reviews that were 5-stars is 51% compared to the 39% of unpaid Vine reviews. Granted, the total number of paid reviews (i.e. 94) is dwarfed by the number of unpaid reviews (i.e. 40,471). It's possible that the positivity bias is in part due to the limited sample size of paid reviewers. If the number paid reviews more comparable to the number of unpaid reviews, the difference in percentages may decrease.
+Results of the Vine review analysis suggests that <u>there is a positivity bias in paid Vine reviews</u>. The percentage of paid Vine reviews that are 5-stars is 51% compared to the 39% of unpaid Vine reviews. Granted, the total number of paid reviews (i.e. 94) is dwarfed by the number of unpaid reviews (i.e. 40,471). It's possible that the positivity bias is in part due to the limited sample size of paid reviewers. If the number of paid reviews was more comparable to the number of unpaid reviews, the difference in percentages may decrease.
 
-To understand if reviews statistics would be more comparable if the sample sizes were similar, an additional analysis could be done where the same statistics were run on a random sample of 150 unpaid Vine reviews instead of the full dataset. Another, more industrious additional analysis could involve running statistics on paid Vine reviews of multiple product categories, not just video games.
+To understand if paid/unpaid review statistics would be more comparable if the sample sizes were more similar, an additional analysis could be done where the same statistics were run on a random sample of 150 unpaid Vine reviews instead of the full dataset. Another, more industrious additional analysis could involve running statistics on paid Vine reviews of multiple product categories, not just video games, to see if the positivity bias is exclusive to video game products or if it holds up across multiple product categories.
 ## Resources
 Data:
 - [Amazon Video Game Review Dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz)
