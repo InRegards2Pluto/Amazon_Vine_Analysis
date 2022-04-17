@@ -1,7 +1,7 @@
 # Amazon Vine Analysis
 
 ## Overview
-This analysis is part of a mock analysis of Amazon video game reviews written by members of the paid Amazon Vine program. PySpark is used to perform the ETL process on a dataset retrieved from an AWS RDS instance. PySpark analyses were originally conducted within Google Colab and the code script is located in the [Amazon_Reviews_ETL.ipynb file](./Amazon_Reviews_ETL.ipynb). Transformed data frames are loaded into pgAdmin. Analysis of Vine reviews were executed in a [second Colab notebook](./Vine_Review_Analysis.ipynb). The following metrics were assessed for both paid and unpaid Vine reviews:
+The repository contains an analysis of Amazon video game reviews written by members of the paid Amazon Vine program. PySpark is used to perform the ETL process on a dataset retrieved from an AWS RDS instance. PySpark analyses were originally conducted within Google Colab and the code script is located in the [Amazon_Reviews_ETL.ipynb file](./Amazon_Reviews_ETL.ipynb). Transformed data frames are loaded into pgAdmin. Analysis of Vine reviews were executed in a [second Colab notebook](./Vine_Review_Analysis.ipynb). The following metrics were assessed for both paid and unpaid Vine reviews:
 - Total reviews
 - Number of 5-star reviews
 - Percentage of total reviews that were 5-star
